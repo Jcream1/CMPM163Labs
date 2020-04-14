@@ -21,9 +21,12 @@
         document.body.appendChild(renderer.domElement);
         camera.position.z = 200;
 
-        var light = new THREE.PointLight(0xffffff, 1, 1000);
+        var light = new THREE.PointLight(0xff83fa, 1, 1000);
         light.position.set(50, 50, 50);
         scene.add(light);
+        var light2 = new THREE.PointLight(0xffffff, 5, 1000);
+        light2.position.set(0, 100, 50);
+        scene.add(light2);
 
         
         var loader = new THREE.GLTFLoader();
@@ -38,6 +41,7 @@
         function animate() {
 		    requestAnimationFrame(animate);
 		    renderer.render(scene, camera);
+            gltf.scene.rotation.x = -50;
         }
 	    animate();
 
