@@ -49,6 +49,9 @@
 				if(geometry3) {
 					geometry3.rotateX(0.01);
 					geometry3.rotateY(0.01);
+
+					geometry4.rotateX(0.01);
+					geometry4.rotateY(0.01);
 				}
 
 				renderer.render(scene, camera);
@@ -60,12 +63,6 @@
 				geometry2.translate(0.05,-0.05,0.05);
                 geometry2.rotateX(0.01);
                 geometry2.rotateY(0.01);
-
-				if(geometry4) {
-					geometry4.translate(0.05,0.05,-0.05);
-                	geometry4.rotateZ(0.01);
-                	geometry4.rotateY(0.01);
-				}
 
 				renderer.render(scene, camera);
 			}
@@ -96,23 +93,6 @@
 					fshader = data;
 					count += 1;
 					addCoolCube();
-				},
-				// onProgress callback
-				function (xhr) {
-					console.log((xhr.loaded/xhr.total * 100)+ '% loaded');
-				},
-				// onError callback
-				function (err) {
-					console.error('An error happened');
-				});
-
-			loader.load('shaders/vertexShader2.vert',
-				// onLoad callback
-				function (data) {
-					console.log(data); // output the text to the console
-					vshader2 = data;
-					count += 1;
-					addCoolCube2();
 				},
 				// onProgress callback
 				function (xhr) {
@@ -167,19 +147,19 @@
 			var geometry4, material4, mesh4;
 
 			function addCoolCube2() {
-				if(count == 2) {
-					let uniforms2 = {
+				if(count == 3) {
+					let uniforms = {
 						colorB: {type: 'vec3', value: new 
 							THREE.Color(0xFF00FF)},
 						colorA: {type: 'vec3', value: new 
-							THREE.Color(0x74ebd5)}
+							THREE.Color(0xADFF2F)}
 					};
 
 					geometry4 = new THREE.BoxGeometry(1, 1, 1);
 					material4 =  new THREE.ShaderMaterial({
-						uniforms: uniforms2,
-						fragmentShader: fshader2,
-						vertexShader: vshader2,
+						uniforms: uniforms,
+						fragmentShader: fshader,
+						vertexShader: vshader,
 						precision: "mediump"});
 
 				mesh4 = new THREE.Mesh(geometry4, material4);
