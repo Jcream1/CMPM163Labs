@@ -50,8 +50,10 @@
 					geometry3.rotateX(0.01);
 					geometry3.rotateY(0.01);
 
-					geometry4.rotateX(0.01);
-					geometry4.rotateY(0.01);
+				}
+				if(geometry4) {
+					geometry4.rotateZ(0.01);
+                	geometry4.rotateY(0.01);
 				}
 
 				renderer.render(scene, camera);
