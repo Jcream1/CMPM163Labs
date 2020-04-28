@@ -24,7 +24,9 @@
             uniform sampler2D texture1;
             varying vec2 vUv;
             void main() {
-                gl_FragColor = texture2D(texture1, vUv);
+                vec2 tiles = vec2(2.0,2.0);
+                vec2 vUv2 = fract( vUv * tiles);
+                gl_FragColor = texture2D(texture1, vUv2);
             }
         </script>
       
@@ -99,17 +101,16 @@
       		        scene.add(mesh1);
     	        }
             }
-
+            
             // setup cube5
-            var geometry2, material2, mesh2;
+            var geometry2, material2;
             function addTextureShaderCube2() {
-                if(count2 == 2) {
-                    var uniforms = {texture1: { type: "t", value: 
-                    THREE.ImageUtils.loadTexture("172.jpg")}};
+                    var uniforms2 = {texture1: { type: "t", value: 
+                    THREE.ImageUtils.loadTexture("176.jpg")}};
 
       		        geometry2 = new THREE.BoxGeometry(1, 1, 1);
       		        material2 =  new THREE.ShaderMaterial({
-            		    uniforms: uniforms,
+            		    uniforms: uniforms2,
       			        fragmentShader: document.getElementById('fragmentShader').textContent,
               		    vertexShader: document.getElementById('vertexShader').textContent,
       			        precision: "mediump"});
@@ -117,15 +118,13 @@
       		        mesh2 = new THREE.Mesh(geometry2, material2);
       		        mesh2.position.x = 4;
       		        scene.add(mesh2);
-    	        }
             }
-
+            addTextureShaderCube2();
 
             THREE.Cache.enabled = true;
             var count = 0;
-            var count2 = 0;
             var loader = new THREE.FileLoader();
-            var fshader, vshader, fshader2, vshader2;
+            var fshader, vshader;
 
       	    loader.load('shaders/vertexShader.vert',
       		    // onLoad callback
@@ -160,6 +159,7 @@
       		    function (err) {
       		    	console.error('An error happened');
       		    });
+
 
 		</script>
 	</body>
