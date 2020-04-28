@@ -13,7 +13,7 @@ Materials of cubes(from left to right):
 4. The rotating one, its material is made by source code from three.is material examples (new THREE.MeshBasicMaterial( { color: 0xffaa00, transparent: true, blending: THREE.AdditiveBlending } ) )
 
 ## Lab4
-Video:https://drive.google.com/file/d/1v_yjcRgrqoxB_kWA-L-6V6LEiIN_8BLq/view?usp=sharing
+Video:https://drive.google.com/file/d/1v_yjcRgrqoxB_kWA-L-6V6LEiIN_8BLq/view?usp=sharing    
 Answers:    
   a. x = u*8  
   b. y = 8-8v   
