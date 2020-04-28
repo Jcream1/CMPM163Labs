@@ -27,13 +27,26 @@
       		var cube = new THREE.Mesh(geometry, material);
      		scene.add(cube);
 
+            // setup cube2
+            var cube2 = new THREE.Mesh(geometry, material);
+            scene.add(cube2);
+            cube2.position.x -= 2;
+
+
 			// add the light
 			var light = new THREE.PointLight(0xffffff, 1, 1000);
 			light.position.set(10, 10, 10);
 			scene.add(light);
 
-			function animate() {
+			var i = 0;
+            function animate() {
 				requestAnimationFrame(animate);
+
+                //animate light
+                i += 0.01;
+                light.position.x = 10*Math.sin(i);
+                light.position.z = 10*Math.sin(i);
+
 				renderer.render(scene, camera);
 			}
 			animate();
