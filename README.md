@@ -11,3 +11,9 @@ Materials of cubes(from left to right):
 2. This cube was the result of first part of the lab and is a grey/white cube
 3. Its color interpolates between two input colors as introduced in part 2 (#ACB6E5 and #74ebd5)
 4. The rotating one, its material is made by source code from three.is material examples (new THREE.MeshBasicMaterial( { color: 0xffaa00, transparent: true, blending: THREE.AdditiveBlending } ) )
+
+## Lab4
+Answers:
+  a. x = u*8
+  b. y = 8-8v
+  c. white
