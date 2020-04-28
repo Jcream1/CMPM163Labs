@@ -5,8 +5,8 @@ Images of three models:
 <img src="Images/lab2part2sc.png" width="100">;
 
 ## Lab3
-Video: https://drive.google.com/file/d/10qXukjTORgHv-w0WUx7G3s5rTND4yqnz/view?usp=sharing   
-Materials of cubes(from left to right):     
+Video: https://drive.google.com/file/d/10qXukjTORgHv-w0WUx7G3s5rTND4yqnz/view?usp=sharing     
+Materials of cubes(from left to right): 
 1. Its color interpolates between two input colors (#ADFF2F and #FF00FF)    
 2. This cube was the result of first part of the lab and is a grey/white cube   
   3. Its color interpolates between two input colors as introduced in part 2 (#ACB6E5 and #74ebd5)    
@@ -14,7 +14,7 @@ Materials of cubes(from left to right):
 
 ## Lab4
 Video:https://drive.google.com/file/d/1v_yjcRgrqoxB_kWA-L-6V6LEiIN_8BLq/view?usp=sharing    
-Cubes(from left to right):    
+Cubes(from left to right):  
 1. The 3rd cube, new texture/normal map combo, material 173b.jpg and 173_norm.jpg.    
 2. The 2nd cube, made by following instructions, texture map without normal map, material 157.jpg.    
 3. The 1st cube, made by following instructions, texture/normal map combo, material 157.jpg and 157_norm.jpg.
