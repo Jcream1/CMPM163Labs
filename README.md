@@ -14,6 +14,6 @@ Materials of cubes(from left to right):
 
 ## Lab4
 Answers:
-  a. x = u*8
-  b. y = 8-8v
+  a. x = u*8  
+  b. y = 8-8v 
   c. white
