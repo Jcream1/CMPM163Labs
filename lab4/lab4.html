@@ -22,16 +22,24 @@
 			
 			// setup the cube
             var texture = THREE.ImageUtils.loadTexture("157.jpg");
+            var normMap = THREE.ImageUtils.loadTexture("157_norm.jpg");
             var geometry = new THREE.BoxGeometry();
-      		var material = new THREE.MeshPhongMaterial( { map: texture } );
+            var material = new THREE.MeshPhongMaterial({map: texture, normalMap: normMap});
       		var cube = new THREE.Mesh(geometry, material);
      		scene.add(cube);
 
             // setup cube2
+            material = new THREE.MeshPhongMaterial( { map: texture });
             var cube2 = new THREE.Mesh(geometry, material);
             scene.add(cube2);
             cube2.position.x -= 2;
 
+            texture = THREE.ImageUtils.loadTexture("173b.jpg");
+            normMap = THREE.ImageUtils.loadTexture("173_norm.jpg");
+            material = new THREE.MeshPhongMaterial({map: texture, normalMap: normMap});
+            var cube3 = new THREE.Mesh(geometry, material);
+            scene.add(cube3);
+            cube3.position.x -= 4;
 
 			// add the light
 			var light = new THREE.PointLight(0xffffff, 1, 1000);
