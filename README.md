@@ -25,3 +25,7 @@ Answers:
   a. x = u*8  
   b. y = 8-8v   
   c. white
+
+## Lab5
+Video:https://drive.google.com/file/d/1jHS5BvK1LYfED79uJLMY5Vbbaa3z4min/view?usp=sharing    
+The particle at left rear wheel is made by following the tutorials but different color. The right rear wheel one is another kind of particle. Then, I changed the materials of track, actually the colors. I also changed the skybox. I downloaded a new skybox from hdrihaven.com, then added it into the project and changed its texture shape to cube. Then created a new materail for skybox and applied this new one. Also, I changed the game to knock down the pins, which did by following the tutorial in Unity Learn.
