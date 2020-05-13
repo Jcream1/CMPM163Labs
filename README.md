@@ -31,5 +31,15 @@ Video:https://drive.google.com/file/d/1jHS5BvK1LYfED79uJLMY5Vbbaa3z4min/view?usp
 The particle at left rear wheel is made by following the tutorials but different color. The right rear wheel one is another kind of particle. Then, I changed the materials of track, actually the colors. I also changed the skybox. I downloaded a new skybox from hdrihaven.com, then added it into the project and changed its texture shape to cube. Then created a new materail for skybox and applied this new one. Also, I changed the game to knock down the pins, which did by following the tutorial in Unity Learn.
 
 ## Lab6
-Images: 
+Images:     
 <img src="Images/163Lab6P1.png" width="100">;
+<img src="Images/163Lab6P2.png" width="100">;   
+    
+Lights:   
+1.Point light works like a light bulb, it will illuminate things based on the light's position, the light shows equally to all directions.    
+2.Directional light works like the sun, lighting things based on the direction of the light, set by the objects rotation.     
+3.Spot light works like a flashlight or headlamps on a car, they point in a direction based on their transforms rotation and illuminate all objects within a cone. It respond to bith rotation and position.    
+4. Area light only work when baking a light map. Area lights shine in all directions to one side of a rectangular plane.    
+
+Material:   
+<img src="Images/Desk.jpg" width="100">;
