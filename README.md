@@ -32,8 +32,8 @@ The particle at left rear wheel is made by following the tutorials but different
 
 ## Lab6
 Images:     
-<img src="Images/163Lab6P1.png" width="100">;
-<img src="Images/163Lab6P2.png" width="100">;   
+<img src="Images/163Lab6P1.png" width="300">;
+<img src="Images/163Lab6P2.png" width="300">;   
     
 Lights:   
 1.Point light works like a light bulb, it will illuminate things based on the light's position, the light shows equally to all directions.    
@@ -42,4 +42,4 @@ Lights:
 4. Area light only work when baking a light map. Area lights shine in all directions to one side of a rectangular plane.    
 
 Material:   
-<img src="Images/Desk.jpg" width="100">;
+<img src="Images/Desk.jpg" width="200">;
