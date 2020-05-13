@@ -42,4 +42,13 @@ Lights:
 4. Area light only work when baking a light map. Area lights shine in all directions to one side of a rectangular plane.    
 
 Material:   
+My computer desk:   
 <img src="Images/Desk.jpg" width="200">;
+    
+So I first created a material in balck, then adjusted both values of metallic and smoothness to 1. I also added a reflection probe to  make it reflect lights like my desk.     
+    
+Textures:     
+There are 2 cubes with different textures. These textures are downloaded from Lab4 assets. I applied them to the deault cubes.    
+    
+Skybox:     
+I just used the same skybox as Lab5. 
