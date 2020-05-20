@@ -52,3 +52,6 @@ There are 2 cubes with different textures. These textures are downloaded from La
     
 Skybox:     
 I just used the same skybox as Lab5. 
+
+## Lab7
+Video: https://drive.google.com/file/d/1HQA7oFRvcRLslXNHXn_Qx3jGOr1KT110/view?usp=sharing;    
