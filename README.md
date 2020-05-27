@@ -57,6 +57,8 @@ I just used the same skybox as Lab5.
 Video: https://drive.google.com/file/d/1HQA7oFRvcRLslXNHXn_Qx3jGOr1KT110/view?usp=sharing;    
 
 ## Lab8
+link: https://github.com/Jcream1/163lab8.git    
+    
 Image of the real city:     
 <img src="Images/ExampleCity.jpg" width="300">;   
 Image of generated city:    
