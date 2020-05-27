@@ -55,3 +55,9 @@ I just used the same skybox as Lab5.
 
 ## Lab7
 Video: https://drive.google.com/file/d/1HQA7oFRvcRLslXNHXn_Qx3jGOr1KT110/view?usp=sharing;    
+
+## Lab8
+Image of the real city:     
+<img src="Images/ExampleCity.jpg" width="200">;   
+Image of generated city:    
+<img src="Images/MyCity.png" width="200">;
