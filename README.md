@@ -58,6 +58,6 @@ Video: https://drive.google.com/file/d/1HQA7oFRvcRLslXNHXn_Qx3jGOr1KT110/view?us
 
 ## Lab8
 Image of the real city:     
-<img src="Images/ExampleCity.jpg" width="200">;   
+<img src="Images/ExampleCity.jpg" width="300">;   
 Image of generated city:    
-<img src="Images/MyCity.png" width="200">;
+<img src="Images/MyCity.png" width="300">;
